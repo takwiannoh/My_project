@@ -1,6 +1,6 @@
 ---
 - name: Install Jenkins
-  hosts: dbservers
+  hosts: webservers
   gather_facts: false
   become: true
   tasks:
